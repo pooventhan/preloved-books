@@ -26,7 +26,14 @@
       <div class="row mt-2">
           {{#each books}}
             <div class="col mb-3">
-              <img class="rounded" src="{{this.cover}}" width="130" data-bs-toggle="modal" data-bs-target="#modal{{this.index}}">
+              <div>
+                <img class="rounded" style="position:relative" src="{{this.cover}}" width="130" data-bs-toggle="modal" data-bs-target="#modal{{this.index}}">
+                {{#if this.sold}}
+                  <span class="position-absolute top start translate-middle badge rounded-pill bg-danger">
+                    SOLD
+                  </span>
+                {{/if}}
+              </div>
               {{#if this.written}}
                 <p><i class="fas fa-pen-square"></i></p>
               {{/if}}

@@ -137,6 +137,7 @@ books:
   cover: https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9780/7537/9780753727539.jpg
   originalPrice: 46.14
   discount: 50
+  sold: true
   description: "<p>Three of Patience Strong&apos;s most treasured and enduring anthologies of daily readings are brought together in one volume. &nbsp;The Birthday Book Reflections on the beauty of nature, through to thoughts about gardens, friendship, life and love. A selection of short passages for every day of the year, all from the hand of Patience Strong, and all with the power to touch the heart. &nbsp;The Friendship Book Poems and prose from many sources, ranging from the Bible and Shakespeare to Wordsworth, Jane Austen and Patience Strong herself. &nbsp;The Bedside Book More of Patience Strong&apos;s much loved readings, combined with a selection of quotations from the notebook in which she jotted down the things that appealed to her over the years. A beautiful combination of her own simple but delightful philosophy and well-chosen words from others. </p>"
 
 - 14:
@@ -249,6 +250,7 @@ books:
   originalPrice: 44.57
   discount: 35
   written: true
+  sold: true
   description: "<p>How to Beat Worry and Generalised Anxiety Disorder One Step at a Time is specifically addressed to low-intensity patients and follows an evidence-based cognitive behavioural therapy (CBT) approach.<br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;This book is the perfect resource for helping you to beat worry or Generalised Anxiety Disorder, either by yourself or in conjunction with the support of an IAPT service. The book is written in a friendly, engaging (and jargon-free!) style and encourages interactive reading through tables, illustrations and worksheets. Real-life case studies illustrate the use of each intervention and demonstrate how you can work through your anxiety.<br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;The book teaches you effective CBT techniques for managing your worry more effectively and releasing tension through Progressive Muscle Relaxation.</p>"
   
 
