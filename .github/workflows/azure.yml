@@ -8,6 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: prod
     steps: 
     - name: Push to Azure Storage
       uses: tibor19/static-website-deploy@v1
