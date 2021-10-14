@@ -8,7 +8,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment: prod
     steps: 
     - name: Install dependencies
       uses: actions/checkout@v2
@@ -16,6 +15,10 @@ jobs:
         npm install
         npx @11ty/eleventy
 
+  deploy:
+    runs-on: ubuntu-latest
+    environment: prod
+    steps:
     - name: Push to Azure Storage
       uses: tibor19/static-website-deploy@v1
       with:
