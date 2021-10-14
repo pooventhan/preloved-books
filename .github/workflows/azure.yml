@@ -13,7 +13,7 @@ jobs:
       uses: tibor19/static-website-deploy@v1
       with:
         # Connection String of the Azure Storage Container
-        connection-string: ${{ secrets.STORAGE_CONNECTION_STRING }}
+        connection-string: ${{ secret.STORAGE_CONNECTION_STRING }}
         # Folder containing the files to be uploaded to the Storage Container
         folder: .
         # Name of the Blob Container Storage
