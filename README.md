@@ -1,3 +1,5 @@
+[![Deploy to Azure](https://github.com/pooventhan/preloved-books/actions/workflows/azure.yml/badge.svg?branch=main)](https://github.com/pooventhan/preloved-books/actions/workflows/azure.yml)
+
 # preloved-books
 A simple static website to help selling my wife's books collection.
 
