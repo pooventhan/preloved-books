@@ -10,13 +10,19 @@ jobs:
     runs-on: ubuntu-latest
     environment: prod
     steps: 
+    - name: Install dependencies
+      uses: actions/checkout@v2
+      run: |
+        npm install
+        npx @11ty/eleventy
+
     - name: Push to Azure Storage
       uses: tibor19/static-website-deploy@v1
       with:
         # Connection String of the Azure Storage Container
         connection-string: ${{ secrets.STORAGE_CONNECTION_STRING }}
         # Folder containing the files to be uploaded to the Storage Container
-        folder: .
+        folder: '_site'
         # Name of the Blob Container Storage
         blob-container-name: $web
         # Access Policy to update in the Container (BlobContainer | Blob | None). For private containers do not specity any value.
